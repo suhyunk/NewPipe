@@ -1336,7 +1336,8 @@ public final class VideoDetailFragment
                                   @Nullable final PlayQueue newPlayQueue) {
         this.serviceId = newServiceId;
         this.url = newUrl;
-        this.title = newTitle;
+//        this.title = newTitle;
+        this.title = "joon_VideoDetailFragmentTitle";
         this.playQueue = newPlayQueue;
     }
 

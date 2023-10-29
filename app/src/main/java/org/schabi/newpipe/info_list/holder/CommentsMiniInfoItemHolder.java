@@ -121,7 +121,8 @@ public class CommentsMiniInfoItemHolder extends InfoItemHolder {
             streamService = ServiceList.YouTube;
         }
         streamUrl = item.getUrl();
-        commentText = item.getCommentText();
+//        commentText = item.getCommentText();
+        commentText = new Description("joon_comment", 3);
         ellipsize();
 
         //noinspection ClickableViewAccessibility
